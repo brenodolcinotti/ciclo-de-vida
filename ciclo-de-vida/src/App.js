@@ -5,7 +5,7 @@ function Contador(){
 
   // useEffect com array de dependências vazio;
   // Comportamentos será parecido com ComponentDidMount (montagem)
-  // useEffect (chamada de funcção, [] array de dependências)
+  // useEffect (chamada de função, [] array de dependências)
   useEffect(() => {
     console.log("Componente Montado!")
   }, []);
