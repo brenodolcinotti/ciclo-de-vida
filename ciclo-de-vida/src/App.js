@@ -19,7 +19,7 @@ useEffect(() => {
   // Retorno da fução (função de limpeza)
   // Comportamento similar ao componentWillUnmount (desmontagem)
   return() => {
-    console.log("Função de limpeza executada. O contador será removida")
+    console.log("Função de limpeza executada. O contador será removido")
     }
   }, [contador]);
 
